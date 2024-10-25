@@ -69,7 +69,7 @@ h1 {
 }
 .roboto {
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   font-style: normal;
   text-align: center;
 }
@@ -127,6 +127,7 @@ h1 {
   font-family: "Arvo", serif;
   font-style: normal;
   text-align: center;
+  font-size: 28px;
 }
 
 #who hr {
@@ -139,6 +140,64 @@ h1 {
   width: 200px;
 }
 
+#get-involved {
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px 50px 0px;
+  gap: 20px;
+}
+
+#get-involved h2 {
+  color: #d9534f;
+  font-family: "Arvo", serif;
+  font-style: normal;
+  text-align: center;
+  font-size: 28px;
+}
+
+#get-involved hr {
+  border: none;
+  border-top: 1px solid #d9534f;
+  color: #d9534f;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 200px;
+}
+
+.iconcard{
+border-radius: 50px;
+background-color: #333333;
+width: 80px;
+height: 80px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 30%;
+
+}
+
+.cardbouton{
+  background-color: white;
+  color: #d9534f;
+  border-radius: 2px;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid black;
+}
+
+.carddiv {
+  justify-content: center;
+}
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
