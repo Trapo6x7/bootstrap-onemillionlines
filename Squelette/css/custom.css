@@ -61,20 +61,20 @@ h1 {
 }
 
 .robotowhite {
-  font-family: "Roboto", sans-serif;
+  font-family: "Sawarabi Gothic", sans-serif;
   font-weight: 100;
   font-style: normal;
   color: white;
   text-align: center;
 }
 .roboto {
-  font-family: "Roboto", sans-serif;
+  font-family: "Sawarabi Gothic", sans-serif;
   font-weight: 200;
   font-style: normal;
   text-align: center;
 }
 .robotored {
-  font-family: "Roboto", sans-serif;
+  font-family: "Sawarabi Gothic", sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #d9534f;
@@ -195,7 +195,7 @@ h1 {
   font-size: 15px;
   text-align: center;
   padding: 10px 20px 10px 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Sawarabi Gothic", sans-serif;
   border: 1px solid black;
 }
 
@@ -208,6 +208,23 @@ h1 {
 }
 .carddiv {
   justify-content: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#back-to-top {
+  border-radius: 50px;
+  background-color: #333333;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 95vh;
+  left: 95vw;
 }
 /* Responsive Styling */
 
