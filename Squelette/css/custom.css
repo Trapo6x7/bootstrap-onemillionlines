@@ -87,7 +87,7 @@ h1 {
 }
 
 .imgbanniere {
-  width: 100px;
+  width: 50px;
 }
 
 .arvoregular {
@@ -141,7 +141,7 @@ h1 {
 }
 
 #get-involved {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -168,23 +168,27 @@ h1 {
   width: 200px;
 }
 
-.iconcard{
-border-radius: 50px;
-background-color: #333333;
-width: 80px;
-height: 80px;
+.iconcard {
+  border-radius: 50px;
+  background-color: #333333;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.card{
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
   width: 30%;
-
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.cardbouton{
+.cardbouton {
   background-color: white;
   color: #d9534f;
   border-radius: 2px;
