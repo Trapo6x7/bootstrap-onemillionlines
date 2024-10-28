@@ -25,7 +25,7 @@
 }
 
 h1 {
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   font-size: 50px;
   width: 80%;
@@ -55,27 +55,27 @@ h1 {
 
 .linkheader {
   color: #909698;
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 12px;
+  font-weight: 500;
   margin-right: 15px;
   font-family: "Arvo", serif;
 }
 
 .robotowhite {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 100;
   font-style: normal;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
 }
 .roboto {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 200;
   font-style: normal;
   text-align: center;
 }
 .robotored {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #d9534f;
@@ -105,7 +105,7 @@ h1 {
 
 .boutonbanniere {
   background-color: #d9534f;
-  color: white;
+  color: #FFFFFF;
   border-radius: 8px;
   font-size: 30px;
   text-align: center;
@@ -114,7 +114,7 @@ h1 {
 }
 
 #who {
-  background-color: white;
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -190,7 +190,7 @@ h1 {
 }
 
 .cardbouton {
-  background-color: white;
+  background-color: #FFFFFF;
   color: #d9534f;
   border-radius: 2px;
   font-size: 15px;
